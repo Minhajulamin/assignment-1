@@ -79,22 +79,22 @@ body {
     padding: 32px;
 }
 
-.three-box>div>button{
+.three-box>div>button {
     border-radius: 8px;
     color: white;
     padding: 5px;
     border: none;
 }
 
-.btn-three{
+.btn-three {
     background: rgb(84, 144, 245);
 }
 
-.btn-one{
+.btn-one {
     background: rgb(9, 161, 92);
 }
 
-.btn-two{
+.btn-two {
     background: rgb(255, 194, 57);
 }
 
@@ -118,4 +118,32 @@ body {
 
 .bg-two {
     background: rgb(247, 235, 207);
+}
+
+.last-div{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+}
+
+.last-last-div {
+    padding-top: 20px;
+    margin-top: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.description {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.last {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
