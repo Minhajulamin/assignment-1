@@ -61,3 +61,61 @@ body {
     margin-right: 10px;
     padding: 24px;
 }
+
+.three-box {
+    display: flex;
+}
+
+.three-box>div>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.three-box>div {
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-right: 24px;
+    padding: 32px;
+}
+
+.three-box>div>button{
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.btn-three{
+    background: rgb(84, 144, 245);
+}
+
+.btn-one{
+    background: rgb(9, 161, 92);
+}
+
+.btn-two{
+    background: rgb(255, 194, 57);
+}
+
+.div-one {
+    margin-bottom: 32px;
+}
+
+.bodda {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bg-three {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.bg-one {
+    background: rgb(198, 228, 214);
+}
+
+.bg-two {
+    background: rgb(247, 235, 207);
+}
