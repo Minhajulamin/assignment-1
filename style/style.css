@@ -232,7 +232,7 @@ body {
     line-height: 24px;
 }
 
-.gray-color{
+.gray-color {
     background-color: #D3D3D3;
     padding: 10px;
 }
@@ -252,11 +252,11 @@ body {
     margin-bottom: 32px;
 }
 
-.same-color{
+.same-color {
     background-color: white;
 }
 
-.color-koro{
+.color-koro {
     background: rgb(198, 228, 214);
 }
 
@@ -277,20 +277,54 @@ body {
 
 .almost {
     border-radius: 24px;
-
+    text-align: center;
     background: rgb(198, 228, 214);
     flex-direction: row;
+    align-items: center;
+    gap: 24;
+    padding: 40px;
+}
+
+
+.textt {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7)
+}
+
+
+
+
+.inputt {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 64;
-    padding: 80px 100px 80px 100px;
-    position: static;
-    width: 1280px;
-    height: 395px;
+}
+
+.inputt>input {
+    width: 600px;
+    padding: 18px 40px 18px 40px;
+}
+
+.inputt>button {
+    padding: 18px 40px 18px 40px;
+}
+
+.Subscribe {
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+}
+
+.finish {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.laast {
+    color: rgba(14, 14, 14, 0.7)
 }
 
 .last-last {
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
+    text-align: center;
 }
