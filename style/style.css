@@ -14,66 +14,36 @@ body {
     margin-bottom: 10px;
 }
 
-.nav-button{
+.nav-button {
     width: 116px;
     height: 52px;
     color: rgb(0, 106, 80);
     font-size: 18px;
 }
 
-.intro {
-    background-color: aqua;
-}
-
 #first {
     border-radius: 24px;
-
     background: rgb(198, 228, 214);
+    padding: 60px;
+    display: flex;
+}
 
-    .first {
+.genz {
+    color: rgba(14, 14, 14, 0.5);
+}
 
-        /* Frame 3 */
-        position: static;
-        width: 622px;
-        height: 326px;
-        /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 24;
-        padding: 0px;
-
-
-        /* Inside Auto Layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px 64px;
-    }
-
-    border-radius: 24px;
-
-    background: rgb(198, 228, 214);
+.explore-btn {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
 }
 
 .title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 56px;
     font-weight: 700;
-    line-height: 67px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 
-.img1 {
-    /* position: absolute;
-width: 474.03px;
-height: 329.21px;
-left: 157.37%;
-right: -157.37%;
-top: 20%;
-bottom: -2.3%; */
-
-}
