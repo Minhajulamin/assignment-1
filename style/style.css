@@ -120,7 +120,7 @@ body {
     background: rgb(247, 235, 207);
 }
 
-.last-div{
+.last-div {
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
 }
@@ -147,66 +147,111 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-.description-2{
-    color: rgba(14, 14, 14, 0.7);
-    
+
+.opinion{
+    margin-bottom: 20px;
 }
-.Recent-News{
+
+.question-opinion {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.question-one,
+.question-two,
+.question-three {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.opinion>div>button {
+    width: 152px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.description-2 {
+    color: rgba(14, 14, 14, 0.7);
+
+}
+
+.Recent-News {
     display: flex;
     margin-bottom: 25px;
 }
-.img-world{
-   
+
+.img-world {
+
     margin-right: 24px;
 }
-.Recent-News-1>div{
+
+.Recent-News-1>div {
     display: flex;
     margin-bottom: 25px;
 }
-.img-world1{
+
+.img-world1 {
     margin-left: 25px;
 }
-.s-last>p{
+
+.s-last>p {
     color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
-.taka{
+
+.taka {
     display: flex;
     color: rgba(14, 14, 14, 0.8);
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-justify-content:space-around;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    justify-content: space-around;
 
 
 }
-.amount{
+
+.amount {
     justify-content: center;
     box-sizing: border-box;
-border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
 }
-.done{
+
+.done {
     /* justify-content: center; */
     justify-items: end;
 }
-.almost{
+
+.almost {
     border-radius: 24px;
 
-background: rgb(198, 228, 214);
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 64;
-padding: 80px 100px 80px 100px;
-position: static;
-width: 1280px;
-height: 395px;
-}
-.last-last{
+    background: rgb(198, 228, 214);
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%,rgb(0, 106, 255) 104.264%);
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    position: static;
+    width: 1280px;
+    height: 395px;
+}
+
+.last-last {
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
 }
