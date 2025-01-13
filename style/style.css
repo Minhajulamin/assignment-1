@@ -213,11 +213,16 @@ body {
     color: white;
 }
 
-.aro-poro{
+.aro-poro,
+.amount>button {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     padding: 13px 26px 13px 26px;
     color: white;
+}
+
+.s-last {
+    text-align: center;
 }
 
 .s-last>p {
@@ -227,27 +232,47 @@ body {
     line-height: 24px;
 }
 
+.gray-color{
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
 .taka {
     display: flex;
-    color: rgba(14, 14, 14, 0.8);
+    justify-content: space-around;
+}
+
+.taka>div {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
     font-size: 40px;
     font-weight: 700;
-    line-height: 48px;
-    justify-content: space-around;
+    margin-bottom: 32px;
+}
 
+.same-color{
+    background-color: white;
+}
 
+.color-koro{
+    background: rgb(198, 228, 214);
 }
 
 .amount {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-    background: rgb(255, 255, 255);
+    align-items: center;
 }
 
-.done {
-    /* justify-content: center; */
-    justify-items: end;
+.amount>input {
+    text-align: center;
+    width: 1032px;
+    padding: 20px 40px 20px 40px;
+    margin-bottom: 5px;
+    border: none;
 }
 
 .almost {
