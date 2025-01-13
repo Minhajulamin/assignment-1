@@ -148,7 +148,7 @@ body {
     font-weight: 400;
 }
 
-.opinion{
+.opinion {
     margin-bottom: 20px;
 }
 
@@ -204,6 +204,20 @@ body {
 
 .img-world1 {
     margin-left: 25px;
+}
+
+.recnt-newss>div>div>button {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+    color: white;
+}
+
+.aro-poro{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+    color: white;
 }
 
 .s-last>p {
